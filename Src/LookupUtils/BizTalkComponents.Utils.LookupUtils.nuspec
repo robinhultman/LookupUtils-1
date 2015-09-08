@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<package>
+  <metadata>
+    <id>BizTalkComponents.Utils.LookupUtils</id>
+    <version>$version$</version>
+    <authors>Robin Hultman</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Helper methods to lookup simple config data from different stores..</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>BizTalk</tags>
+  </metadata>
+  <files>
+    <file src="ISSOConfigRepository.cs" target="content\BiztalkComponents.Utils.LookupUtils\ISSOConfigRepository.cs" />
+    <file src="SSOClientHelper.cs" target="content\BiztalkComponents.Utils.LookupUtils\SSOClientHelper.cs" />
+    <file src="SSOConfigRepository.cs" target="content\BiztalkComponents.Utils.LookupUtils\SSOConfigRepository.cs" />
+  </files>
+</package>
