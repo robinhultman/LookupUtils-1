@@ -51,9 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="SSOClientHelper.cs" />
-    <Compile Include="SSOConfigReader.cs" />
-    <Compile Include="SSOConfigRepository.cs" />
-    <Compile Include="ISSOConfigRepository.cs" />
+    <Compile Include="SSOLookupManager.cs" />
+    <Compile Include="SSOLookupRepository.cs" />
+    <Compile Include="ISSOLookupRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

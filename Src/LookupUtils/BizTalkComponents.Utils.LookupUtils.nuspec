@@ -3,7 +3,7 @@
 <package>
   <metadata>
     <id>BizTalkComponents.Utils.LookupUtils</id>
-    <version>1.0.2-beta</version>
+    <version>1.0.3-beta</version>
     <authors>Robin Hultman</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Helper methods to lookup simple config data from different stores..</description>
@@ -12,10 +12,10 @@
     <tags>BizTalk</tags>
   </metadata>
   <files>
-    <file src="ISSOConfigRepository.cs" target="content\BiztalkComponents.Utils.LookupUtils\ISSOConfigRepository.cs" />
+    <file src="ISSOLookupRepository.cs" target="content\BiztalkComponents.Utils.LookupUtils\ISSOLookupRepository.cs" />
     <file src="SSOClientHelper.cs" target="content\BiztalkComponents.Utils.LookupUtils\SSOClientHelper.cs" />
-    <file src="SSOConfigRepository.cs" target="content\BiztalkComponents.Utils.LookupUtils\SSOConfigRepository.cs" />
-    <file src="SSOConfigReader.cs" target="content\BiztalkComponents.Utils.LookupUtils\SSOConfigReader.cs" />
+    <file src="SSOLookupManager.cs" target="content\BiztalkComponents.Utils.LookupUtils\SSOLookupManager.cs" />
+    <file src="SSOLookupRepository.cs" target="content\BiztalkComponents.Utils.LookupUtils\SSOLookupRepository.cs" />
     
   </files>
 </package>
